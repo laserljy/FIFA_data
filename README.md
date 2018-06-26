@@ -1,6 +1,5 @@
 # Motivation
-This is a simple project to analyze the historical data of FIFA world cup since 1930. I have the interest of checking this dataset after watching the game of Germany vs Sweden in Group F. This was a Win-Or-Go-Home game for Germany, everyone was expecting to see that they give it all their heart and soul to knock down the match. Although they did win, it did not seem to me that they deserve it. Sweden was very efficient, smart and fearlessly. Germany, on the other hand, was not innovative and seemed very rough technically. They very luckily scored the 2nd goal in the 94th mins (5 mins injury time) to make it 2:1 and being just okay to advance to the next around. Sweden, on the other hand, got eliminated in the last 30 seconds after combating with the 2 time World Cup champion so tenaciously. Without doult, Sweden was saddiest team in the world at that moment, and my heart was with you. Then the question immediately came up to me was: given the team scored the first goal, what is the wining rate of that game for this team. The best way to find it out is to check all the historical data for all the games in the World Cup finals and get some ideas.
-
+This is a simple project to analyze the historical data of FIFA world cup since 1930. I have the interest of checking this dataset after watching the game of Germany vs Sweden in Group F. This was a Win-Or-Go-Home game for Germany, everyone was expecting to see that they give it all their heart and soul to knock down the match. Although they did win, it did not seem to me that they deserve it. Sweden was very efficient, smart and fearlessly. Germany, on the other hand, was not innovative and seemed very rough technically. They very luckily scored the 2nd goal in the 94th mins (5 mins injury time) to make it 2:1 and being just okay to advance to the next around. Sweden, on the other hand, got eliminated in the last 30 seconds after combating with the 2 time World Cup champion so tenaciously. Without doult, Sweden was saddiest team in the world at that moment, and my heart was with you. Then the question immediately came up to me was: given the team scored the first goal, what is his wining rate for the game. The best way to find it out is to check the historical data for all the games in the World Cup finals.
 
 # Author and date:
 Author: Jiying Li
@@ -19,6 +18,6 @@ Here are some high-level design of the class:
 Application code/main cpp:
 1. WorldCup WCs = new <WorldCup*> <== File1: WorldCups.xsl
 2. Games in each WC <== File2: WorldCupMatches.xsl
-3. Scores in each game <== File2: WorldCupPlayers.xsl
-4. Get some stats by calling functions
+3. Scores in each game <== File3: WorldCupPlayers.xsl
+4. Get some stats by calling functions in WorldCup.
 
