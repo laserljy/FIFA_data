@@ -1,3 +1,5 @@
+// This is to test the implementation of class Game
+
 #include<iostream>
 #include<sstream>
 #include<fstream>
