@@ -1,5 +1,6 @@
+// Filename: test2.cpp
 // This is to test the class of WorldCup, including the c-tor
-
+// input file is "WorldCups_test.csv"
 
 #include<iostream>
 #include<string>

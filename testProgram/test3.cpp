@@ -1,4 +1,6 @@
-// This is to test the implementation of class Game
+// Filename: test3.cpp
+// This is to test input of all the matches for each WC
+// input file: WorldCupMatches.csv
 
 #include<iostream>
 #include<sstream>
