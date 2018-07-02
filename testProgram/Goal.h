@@ -20,7 +20,11 @@ class Goal{
   		team(tm),
   		player(p),
   		typeOfGoal(gt){}
-	
+
+	bool operator<(const Goal other){
+		return goalTime < other.goalTime;
+	}
+
 	friend ostream& operator<<(ostream& os, Goal& g){
 		os << "GoalID: " << g.gameID << ", goalTime: " << g.goalTime << ", by " << g.player << " in " << g.team; 
 		return os;
