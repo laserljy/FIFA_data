@@ -14,10 +14,22 @@ class Goal{
 	string player;
 	GoalType typeOfGoal;
   public:
-	int getGameID(void) const;
-	int getGoalTime(void) const;
-	string getTeamName(void) const;
-	string getPlayer(void) const;
+  	Goal(int gID, int gTime, string tm, string p, GoalType gt): 
+  		gameID(gID), 
+  		goalTime(gTime),
+  		team(tm),
+  		player(p),
+  		typeOfGoal(gt){}
+	
+	friend ostream& operator<<(ostream& os, Goal& g){
+		os << "GoalID: " << g.gameID << ", goalTime: " << g.goalTime << ", by " << g.player << " in " << g.team; 
+		return os;
+	}
+	int getGameID(void) const {return gameID;}
+	int getGoalTime(void) const {return goalTime;}
+	string getTeamName(void) const {return team;}
+	string getPlayer(void) const {return player;}
+	GoalType getGoalType(void) const {return typeOfGoal;}
 };
 
 
