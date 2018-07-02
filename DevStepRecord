@@ -1,0 +1,23 @@
+test1:
+  command: 
+  make test1
+
+test2:
+  command: 
+  make test2
+  ./test2 ./data/WorldCups_test.csv
+  
+test3:
+  command: 
+  make test3
+  ./test3 ./data/WorldCupMatches.csv
+  
+test4:
+  command: 
+  make test4
+  ./test4 ./data/WorldCupMatches.csv
+
+Goal.h + Utility.h + testGoal==> 
+  command: 
+  make testGoal 
+  ./testGoal ./data/WorldCupEvents_test.csv
