@@ -26,7 +26,7 @@ int main(int argc, char** argv){
 			char gtype = event[0];
 			if(gtype=='G'||gtype=='P'){ // if goal or penalty, we want to construct a Goal
 				GoalType gt = gtype=='G'?G:P ;  // previous bug: GoalType= gtype; error illegal conversion from char to GoalType
-				string gltimestr = event.substr(1, event.size()-2);
+				// string gltimestr = event.substr(1, event.size()-2);
 				int gltime = stoi(event.substr(1, event.size()-2), nullptr, 10);
 				int gmID = stoi(tokens[1], nullptr, 10);
 	
