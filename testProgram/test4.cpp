@@ -1,6 +1,6 @@
 // Filename: test4.cpp
 // This is an extend of test3.cpp to incorperate all the goals in the member data goals.
-// input file: WorldCupMatches.csv, and WorldCupPlayer_test
+// input file: WorldCupMatches.csv
 
 #include<iostream>
 #include<sstream>
