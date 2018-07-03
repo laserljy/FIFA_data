@@ -2,4 +2,9 @@
 Kaggle，https://www.kaggle.com/abecklas/fifa-world-cup
 
 #Note
-The orginal dataset downloaded from Kaggle are not completely right. The file named "WorldCupMatches.csv" has repeated data in Year 2014 data. I have changed it to the correct one, which is in this folder
+The original dataset downloaded from Kaggle are not completely right. The file named "WorldCupMatches.csv" has repeated data in Year 2014 data. I have changed it to the correct one, which is in this folder
+
+#Explanation for event abbreviation:
+G = Goal Y = Yellow card RSY = Red card by second yellow card R = Red card O = Substitution out I = Substitution in OH = Substitution out in the half-time IH = Substitution in in the half-time W = Own goal P = Penalty scored MP = Missed Penalty U = Unknow event
+99′ = Minute in which the event occurred
+The events I - O and IH - OH are complementary. When a player leaves another player enters in the same minute of the match.
