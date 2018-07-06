@@ -1,0 +1,3 @@
+The project ends here temporarily. The test5.cpp has some issues (segmentation fault) in the vector<Goals>, seems like the goal is not successfully constructed and stored in the vector in the map.
+
+Will do later, while I am busy with other projects and task. This is so a fun small project.
